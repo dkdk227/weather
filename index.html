@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода | 2026</title>
+    <link rel="stylesheet" href="t5.css">
+</head>
+<body>
+<header>Погода</header>
+<h1 id="huy"></h1> 
+<section>
+<div class="main">
+<section><div class="search"><input placeholder="Напишите название города что бы узнать погоду" type="text" id="city"><button id="search">🔍</button></div></section>
+<p id="pusto" style="color: rgb(137, 0, 0);"></p>
+<section>
+<div id="container">
+    <div class="Under">
+    <p><span id="nameCountry"></span><br><span id="nameCity"></span><br><span id="weather"></span> <span style="color: gray; font-size: 15px;"><span id="min" ></span>/<span id="max"></span></span> <br><span id="feelText"></span><span id="feelLike"></span></p>
+    <div class="description">
+    <span><img id="icon" src="" alt=""></span>
+    <span id="description"></span>
+    </div>  
+    
+    </div>
+    <div id="cityTimeEl"></div>
+
+
+<h1>Прогноз на 5 дней</h1>
+<div id="weather5">
+    <div id="day1" class="day-card"></div>
+    <div id="day2" class="day-card"></div>
+    <div id="day3" class="day-card"></div>
+    <div id="day4" class="day-card"></div>
+    <div id="day5" class="day-card"></div>
+</div>
+
+</div>
+</section>
+</div>
+</section>   
+<script src="t5.js"></script>
+
+</body>
+</html>
