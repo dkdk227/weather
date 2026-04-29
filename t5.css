@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat; /* Запрещает повторение */
     background-position: center; /* Центрирует картинку */
     background-attachment: fixed; /* Фиксирует фон при прокрутке */
-    background-color: rgb(164, 246, 255);
+
 }
 
 header {
@@ -152,6 +152,8 @@ h1 {
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
+        background-image: none;
+        background: linear-gradient(180deg, #87CEEB, #E0F0FF);
     }
     header {
         font-size: 60px;
@@ -175,13 +177,13 @@ h1 {
     #weather5 {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
     }
     .day-card {
-        width: 42%;
+        width: 28%;
         font-size: 14px;
     }
     .day-card img {
         width: 40px;
     }
 }
+
