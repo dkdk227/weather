@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat; /* Запрещает повторение */
     background-position: center; /* Центрирует картинку */
     background-attachment: fixed; /* Фиксирует фон при прокрутке */
+    background-color: rgb(164, 246, 255);
 }
 
 header {
@@ -105,35 +106,6 @@ img {
     margin-top: -25px;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-    header {
-        font-size: 60px;
-    }
-
-    .main {
-        width: 90%;
-        height: auto;
-    }
-
-    #nameCity {
-        font-size: 28px;
-    }
-
-    img {
-        width: 100px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    input {
-        font-size: 16px;
-    }
-}
 
 .day-card {
     background-color: rgba(255, 255, 255, 0.2);
@@ -175,4 +147,41 @@ h1 {
 .minmax {
     font-size: 10px;
     color: rgb(95, 95, 95);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+    header {
+        font-size: 60px;
+    }
+    .main {
+        width: 90%;
+        height: auto;
+    }
+    #nameCity {
+        font-size: 28px;
+    }
+    img {
+        width: 80px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    input {
+        font-size: 16px;
+    }
+    #weather5 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .day-card {
+        width: 42%;
+        font-size: 14px;
+    }
+    .day-card img {
+        width: 40px;
+    }
 }
