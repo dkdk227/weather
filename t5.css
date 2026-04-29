@@ -10,7 +10,6 @@ body {
     background-repeat: no-repeat; /* Запрещает повторение */
     background-position: center; /* Центрирует картинку */
     background-attachment: fixed; /* Фиксирует фон при прокрутке */
-    background: linear-gradient(180deg, #87CEEB, #E0F0FF);
 }
 
 header {
@@ -151,9 +150,8 @@ h1 {
 
 @media (max-width: 768px) {
     body {
+        background: linear-gradient(180deg, #87CEEB, #E0F0FF) !important;
         background-attachment: scroll;
-        background-image: none;
-        background: linear-gradient(180deg, #87CEEB, #E0F0FF);
     }
     header {
         font-size: 60px;
